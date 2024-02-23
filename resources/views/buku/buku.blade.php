@@ -22,6 +22,7 @@
                                     <th>Penulis</th>
                                     <th>Penerbit</th>
                                     <th>Tahun Terbit</th>
+                                    <th>Aksi</th>
           
                                    
                                 </tr>
@@ -45,8 +46,9 @@
                                                 <i class="fa fa-trash-alt"></i>
                                             </button>
 
-                                            <button class="btn btn-primary" type="submit">
+                                            <a class="btn btn-primary" href="{{ route('buku.edit', $b->id) }}">
                                                 <i class="fa fa-edit"></i>
+                                                </a>
                                             </button>
                                         </form>
               

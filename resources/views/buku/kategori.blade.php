@@ -33,7 +33,12 @@
                                                 <button class="btn btn-danger" type="submit">
                                                     <i class="fa fa-trash"></i>
                                                 </button>
+                                                <a class="btn btn-primary" href="{{ route('kategori.edit', $k->id) }}">
+                                                    <i class="fa fa-edit"></i>
+                                                    </a>
+                                                </button>
                                             </form>
+                                     
                                         </td>
                                     </tr>
                                 @empty

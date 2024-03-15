@@ -2,6 +2,7 @@
 
 @section('content')
     <div class="container py-4">
+        <div class="bg-dark p-3">
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
@@ -22,6 +23,7 @@
                                     <th>Penulis</th>
                                     <th>Penerbit</th>
                                     <th>Tahun Terbit</th>
+                                    <th>Sinopsis</th>
                                     <th>Aksi</th>
           
                                    
@@ -37,6 +39,8 @@
                                         <td>{{ $b->penulis }}</td>
                                         <td>{{ $b->penerbit }}</td>
                                         <td>{{ $b->tahun_terbit }}</td>
+                                        <td>{{ $b->deskripsi }}</td>
+                                      
                                         
                                        
                                         <td>
